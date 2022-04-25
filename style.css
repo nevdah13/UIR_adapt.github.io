@@ -502,10 +502,11 @@ margin-top: -570px;
 .iconsGroup1{
 padding-right: 320px;
 }
-.block5_klyaksa1{
+.block5_klyaksa1 {
 position: absolute;
-left:0;
+left: 0;
 top: 4260px;
+z-index: -100;
 }
 .block5_klyaksa2{
 position: absolute;
@@ -766,6 +767,7 @@ height: 50%;
 width: 40%;
 left: 30%;
 flex-direction: column;
+margin-top: 15%;
 
 
 }
@@ -893,7 +895,7 @@ margin-top: 20%;
 
 @media only screen and (max-device-width: 425px){
 .rectangles{
-margin-top: 5%;
+margin-top: -5%;
 }
 .student{
     margin-left: -4%;
