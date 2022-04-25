@@ -452,7 +452,7 @@ display: flex;
 justify-content: space-around;
 flex-direction: column;
 }
-.rectangle_icons{
+.rectangle_icons,.rectangle_icons2{
 margin-top: -600px;
 padding-left: 40px;
 }
@@ -470,7 +470,7 @@ margin-top: 10px;
 .reading{
 position: absolute;
 left: 530px;
-top: 4200px;
+top: 4150px;
 }
 
 .rectangleWid1{
@@ -711,10 +711,7 @@ margin-top: 30%;
 padding-left: 8%;
 }
 
-.textIconEducation{
-font-size: 14px;
-padding-left: 10%;
-}
+
 
 .rectangles{
     margin-top: 25%;
@@ -731,12 +728,18 @@ width: 35vw;
 }
 .programmer_text_big{
 font-size: 38px; 
+}
+
+.rectangle_icons2{
+    margin-top: -700px;
+    padding-left: 40px;
 }   
 
 
 }
 
 @media only screen and (max-device-width: 992px)
+
 {
 /*fonts*/
 .programmer_text_mini{
@@ -778,7 +781,7 @@ padding-left: 5%;
 
 .programmer_text_mini{
 width: 40vw;
-font-size: 18px;
+font-size: 28px;
 }
 .programmer_text_big{
 font-size: 48px; 
@@ -821,9 +824,11 @@ margin-top: 30%;
 padding-left: 8%;
 }
 
+
 .textIconEducation{
-font-size: 14px;
-padding-left: 10%;
+font-size: 18px;
+margin-left: 2%;
+
 }
 
 .rectangles{
@@ -852,6 +857,20 @@ table{
 display: flex;
 justify-content: center;
 
+}
+.adaptiveRectangle1{
+    height: 800px;
+    width: 47%;
+} 
+.adaptiveRectangle{
+    height: 700px;
+    width: 90%;
+}
+.rectangle_icons1{
+    margin-top: -80%;
+}
+.textIcon{
+font-size: 22px;
 }
 }   
 @media only screen and (max-device-width: 768px){
